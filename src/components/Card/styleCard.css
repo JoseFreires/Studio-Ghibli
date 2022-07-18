@@ -1,0 +1,36 @@
+.container-card{
+    border: 1px solid rgb(0,0,0);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin-left: 5px;
+    scroll-snap-type: x mandatory;
+}
+
+.container-image-card{
+    margin: 10px;
+}
+
+.container-informations-card{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 250px;
+}
+
+#movieCard{
+    width: 100%;
+    height: 100%;
+    flex: none;
+}
+
+#titleMovieCard{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#nameJapaneseCard{
+    font-size: 15px;
+}
