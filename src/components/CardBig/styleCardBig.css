@@ -3,20 +3,21 @@
     flex-direction: row;
     background-color: #fff;
     border: 1px solid rgb(0,0,0);
-    margin: 100px;
+    margin: 50px;
+    height: 500px;
     width: 150vh;
     border-radius: 50px;
     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;    
 }
 
 .container-main-CardBig{
-    margin: 30px;
+    margin: 25px;
     display: flex;
     flex-direction: row;
 }
 
 .container-left{
-    font-size: 20px;
+    font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin: 10px;
@@ -32,27 +33,15 @@
     display: flex;
     align-items: center;
     text-align: center;
-    font-size: 25px;
+    font-size: 15px;
     font-family: 'Times New Roman', Times, serif;
 }
 
 #banner{
-    width: 300px;
+    width: 200px;
 }
 
 #title{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
-}
-
-@media screen and (max-width: 1750px) {
-    .container-CardBig{
-        width: 100vh;
-    }
-}
-
-@media screen and (max-width: 1556px) {
-    .container-CardBig{
-        width: 100vh;
-    }
 }

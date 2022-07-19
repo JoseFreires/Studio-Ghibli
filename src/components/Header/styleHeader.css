@@ -15,8 +15,12 @@
 }
 
 #logo{
-    width: 300px;
+    width: 200px;
     margin-left: 50px
+}
+
+#logo-github{
+    width: 25px;
 }
 
 #buttonLink{
@@ -24,10 +28,10 @@
     border: none;
 }
 #buttonLink :hover{
-    width: 45px;
+    width: 35px;
     cursor: pointer;
 }
 
 #homelogo{
-    width: 40px;
+    width: 30px;
 }

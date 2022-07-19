@@ -13,7 +13,7 @@ export default function Header(){
     return(
         <div className="container-header">
             <div className="containerLogos">
-                <button id="buttonLink" onClick={() => { navigate('/') }}>
+                <button id="buttonLink" onClick={() => {navigate('/') }}>
                     <img alt="Home" id="homelogo" src={home}  />
                 </button>
                 <img alt="logoGithub" id='logo-github' src={logo_git} />

@@ -7,17 +7,15 @@
     border-radius: 5px;
     margin-left: 5px;
     scroll-snap-type: x mandatory;
+    height: 400px;
 }
 
-.container-image-card{
-    margin: 10px;
-}
 
 .container-informations-card{
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 250px;
+    width: 200px;
 }
 
 #movieCard{
@@ -27,10 +25,10 @@
 }
 
 #titleMovieCard{
-    font-size: 18px;
+    font-size: 15px;
     font-weight: bold;
 }
 
 #nameJapaneseCard{
-    font-size: 15px;
+    font-size: 10px;
 }

@@ -7,7 +7,7 @@ export default function CardBig(props){
             <div className="container-main-CardBig">
                 <div className="container-left">
                     <div>
-                        <img id="banner" src={props.image}/>
+                        <img id="banner" src={props.image} alt=""/>
                     </div>
                     <div>
                         <p id="title">{props.title}</p>

@@ -21,7 +21,7 @@ const Movies = () => {
         <EstruturaPage>
             <div className="containerMovies">
                 <div className="containerMainMovies">
-                    <h1>Informações sobre os filmes</h1>
+                    <h1 id="title-movies">Informações sobre os filmes</h1>
                         <div className="containerSearch">
                             <img alt="search" src={search_image} />
                             <input type='text' id="search" placeholder='Search...' 
@@ -31,6 +31,7 @@ const Movies = () => {
                         </div>
                         <div className="listMovies">
                             {data
+                            // eslint-disable-next-line
                             .filter((val) => {
                                 if(search === ""){
                                     return val

@@ -5,10 +5,7 @@
     flex-direction: column;
     justify-content: center;
     min-height: 100vh;
-
     min-width: 100px;
-    max-width: 2000px;
-
 }
 
 .containerMainHome{
@@ -22,7 +19,7 @@
     display: flex;
     align-items: center;
     flex-direction: row;
-    width: 200vh;
+    width: 174vh;
 }
 
 .carrossel{
@@ -31,7 +28,6 @@
     scroll-behavior: smooth;
     text-align: center;
     overflow-x: auto;
-    width: 182.2vh;
     margin: auto;
     overflow: hidden;
     scroll-snap-align: start;
@@ -56,12 +52,12 @@
 }
 
 #button{
-    width: 45px;
+    width: 35px;
 
 }
 
 #principal-title{
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
 }
@@ -71,8 +67,8 @@
     background-color: #449bec;
     border: none;
     color: #fff;
-    font-size: 20px;
-    width: 400px;
+    font-size: 15px;
+    width: 300px;
     border-radius: 50px;
     font-family: 'Courier New', Courier, monospace;
 }
@@ -83,12 +79,12 @@
     background-color:#3290e7;
     border: none;
     color: #fff;
-    font-size: 18px;
+    font-size: 14px;
     border-radius: 50px;
 }
 
 
-@media screen and (max-width: 1700px) {
+/* @media screen and (max-width: 1700px) {
     .containerHome{
         width: 100vh;
     }
@@ -118,7 +114,7 @@
 
 @media screen and (max-width: 1065px) {
     .containerHome{
-        width: 50vh;
+        width: 200vh;
     }
     .carrossel{
         width: 80vh;
@@ -126,4 +122,4 @@
     .containerCarrossel{
         width: 80vh;
     }
-}
+} */
