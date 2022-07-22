@@ -6,7 +6,6 @@
     justify-content: center;
     min-height: 100vh;
     min-width: 100vh; 
-    
 }
 
 .containerSecondAbout{
@@ -25,7 +24,7 @@
 
 .containerText{
     margin: 10px;
-    font-size: 17px;
+    font-size: 13px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -40,13 +39,17 @@
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-#middle-Image:hover{
+#middle-Image{
     cursor: pointer;
-    width: 275px;
+    width: 240px;
 }
 
+#middle-Image:hover{
+    cursor: pointer;
+    width: 245px;
+}
 
-@media screen and (max-width: 1500px) {
+/* @media screen and (max-width: 1500px) {
     .containerInfo{
         width: 500px;
     }
@@ -96,4 +99,4 @@
     .containerHistory{
         width: 300px;
     }
-}
+} */
