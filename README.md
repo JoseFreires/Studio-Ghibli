@@ -27,7 +27,6 @@ A aparência foi baseado nas cores presentes do estúdio de animação.
 # Imagens do Projeto:
 
 
-
 ### Features
 
 - [x] Aparência
