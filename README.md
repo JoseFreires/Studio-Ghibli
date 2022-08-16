@@ -25,9 +25,16 @@ A aparência foi baseado nas cores presentes do estúdio de animação.
 </h4>
 
 # Imagens do Projeto:
+## Home
+<img src="https://user-images.githubusercontent.com/88195769/185004788-081dc463-fdb9-4bf1-a699-f5f223fe2c5d.jpeg" />
 
+## Movies
+<img src="https://user-images.githubusercontent.com/88195769/185004904-cd3c89b1-8d37-4f35-8c44-139d2570d395.png" />
 
-### Features
+## About
+<img src="https://user-images.githubusercontent.com/88195769/185004939-8576ce91-0cb8-4b25-ad83-63c0cead690e.png" />
+
+# Features
 
 - [x] Aparência
 - [x] Consumir a API
