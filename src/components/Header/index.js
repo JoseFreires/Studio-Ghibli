@@ -16,7 +16,9 @@ export default function Header(){
                 <button id="buttonLink" onClick={() => {navigate('/') }}>
                     <img alt="Home" id="homelogo" src={home}  />
                 </button>
-                <img alt="logoGithub" id='logo-github' src={logo_git} />
+                <a href="https://github.com/JoseFreires/Studio-Ghibli" target="blank">
+                    <img alt="logoGithub" id='logo-github' src={logo_git} />
+                </a>
             </div>
             <div>
                 <img alt="Logo" id="logo" src={logo} />
