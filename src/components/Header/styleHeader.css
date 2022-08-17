@@ -1,0 +1,41 @@
+.container-header{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #63a6e6;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.containerLogos{
+    margin-right: 100px;
+}
+
+#logo{
+    width: 200px;
+    margin-left: 50px
+}
+
+#logo-github-header{
+    width: 25px;
+}
+#logo-github-header :hover{
+    width: 35px;
+    cursor: pointer;
+}
+
+#buttonLink{
+    background: none;
+    border: none;
+}
+#buttonLink :hover{
+    width: 32px;
+    cursor: pointer;
+}
+
+#homelogo{
+    width: 30px;
+}
