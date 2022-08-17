@@ -1,0 +1,38 @@
+.containerFooter{
+    background-color: #63a6e6; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    height: 10.3vh;
+    width: 100%;
+    position: static;
+}
+
+#logo-footer{
+    width: 27px;
+    margin: 3px;
+}
+
+.containerLogo{
+    margin-left: 15px;
+}
+
+/* @media screen and (max-width: 1500px) {
+    .container-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .container-footer{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .container-footer{
+        width: 100%;
+    }
+} */
