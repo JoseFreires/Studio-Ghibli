@@ -13,7 +13,7 @@ export default function Footer(){
                 <a href='https://github.com/JoseFreires' target='blank'>
                     <img id='logo-footer' src={logo_git} alt="Logo Github"/>
                 </a>
-                <a href='https://www.linkedin.com/in/josé-guilherme-silva-freires-27b778227?original_referer=' target='blank'>
+                <a href='www.linkedin.com/in/josefreires' target='blank'>
                     <img id='logo-footer' src={logo_linkedin} alt="Logo Linkedin"/>
                 </a>
             </div>

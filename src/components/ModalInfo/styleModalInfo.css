@@ -1,0 +1,168 @@
+.containerModal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+#buttonModal{
+    background: none;
+    border: none;
+}
+
+#buttonModal :hover{
+    cursor: pointer;
+}
+
+.modal-info-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 700px;
+    height: 450px;
+    border-radius: 10px;
+}
+
+.modal-overlay{
+    background-color:#48578b44;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.containerLeftModal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    font-weight: bold;
+    width: 250px;
+    margin: 5px;
+}
+
+#imageModal{
+    width: 180px;
+    height: 270px;
+}
+
+
+
+#titleJapaneseModal{
+    font-size: 10px;
+}
+
+
+.containerRightModal{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    text-align: center;
+    width: 450px;
+}
+
+#sinopse{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.containerProducao, .containerInfoTime{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.containerInfoTime p{
+    margin: 2px;
+}
+
+@media screen and (max-width: 1200px) {
+    .modal-info-content{
+        width: 600px;
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .modal-info-content{
+        width: 550px;
+        height: 300px;
+    }
+    #imageModal{
+        width: 140px;
+        height: 200px;
+    }
+    #sinopse{
+        font-size: 13px;
+    }
+    .containerProducao, .containerInfoTime{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .modal-info-content{
+        width: 400px;
+        height: 300px;
+        flex-direction: column;
+    }
+    .containerLeftModal{
+        justify-content: space-between;
+        width: 100%;
+        margin: 5px;
+        height: 100px;
+    }
+    #imageModal{
+        width: 0;
+    }
+    .containerRightModal{
+        width: 80%;
+        margin: 5px;
+    }
+    #sinopse{
+        font-size: 11px;
+    }
+    .containerProducao, .containerInfoTime{
+        font-size: 9px;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .modal-info-content{
+        width: 300px;
+        height: 300px;
+        flex-direction: column;
+    }
+    .containerLeftModal{
+        justify-content: space-between;
+        width: 100%;
+        margin: 5px;
+        height: 100px;
+    }
+    #imageModal{
+        width: 0;
+    }
+    .containerRightModal{
+        width: 80%;
+        margin: 5px;
+    }
+    #sinopse{
+        font-size: 11px;
+    }
+    .containerProducao, .containerInfoTime{
+        font-size: 9px;
+    }
+}

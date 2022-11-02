@@ -1,5 +1,4 @@
 .containerMainAbout{
-    background-color: #2B83D3;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -17,14 +16,15 @@
 
 .containerInfo{
     background-color: #fff;
-    width: 550px;
+    width: 350px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .containerText{
     margin: 10px;
-    font-size: 13px;
+    width: 95%;
+    font-size: 12px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -34,7 +34,7 @@
 
 .containerHistory{
     background-color: #fff;
-    width: 500px;
+    width: 300px;
     border-radius: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -49,7 +49,6 @@
     width: 245px;
 }
 
-
 @media screen and (max-width: 1500px) {
     .containerInfo{
         width: 500px;
@@ -57,11 +56,13 @@
     .containerHistory{
         width: 400px;
     }
+
 }
 
 @media screen and (max-width: 1300px) {
     .containerSecondAbout{
         flex-direction: row;
+        width: 100%;
     }
     .containerInfo{
         width: 500px;
@@ -87,17 +88,46 @@
     .containerHistory{
         width: 400px;
     }
+    .containerImage{
+        margin: 0;
+    }
 }
 
 @media screen and (max-width: 1000px) {
     .containerInfo{
         width: 300px;
-        height: 200px;
+        height: 280px;
+    }
+    .containerSecondAbout{
+        justify-content: space-between;
+        width: 80%;
     }
     .containerText{
-        font-size: 11px;
+        font-size: 10px;
     }
     .containerHistory{
         width: 300px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .containerSecondAbout{
+        flex-direction: column;
+        justify-content: center;
+        height: 50px;
+        width: 80%;
+    }
+    .containerInfo{
+        width: 600px;
+        height: 250px;
+    }
+    .containerImage{
+        margin: 0;
+    }
+    .containerText{
+        font-size: 10px;
+    }
+    .containerHistory{
+        width: 600px;
     }
 }

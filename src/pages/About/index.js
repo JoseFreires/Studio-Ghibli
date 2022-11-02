@@ -9,7 +9,6 @@ const About = () =>{
     return(
         <EstruturaPage>
             <div className="containerMainAbout">
-                <h1>Sobre o Studio Ghibli</h1>
                 <div className="containerSecondAbout">
                     <div className="containerInfo">
                         <div className="containerText">

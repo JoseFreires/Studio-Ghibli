@@ -6,7 +6,7 @@ export default function EstruturaPage(props){
     return(
         <section>
             <Header />
-            {props.children}
+                {props.children}
             <Footer />
         </section>
     )
