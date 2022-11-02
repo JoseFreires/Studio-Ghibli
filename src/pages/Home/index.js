@@ -41,19 +41,13 @@ const Home = () =>{
                         </div>
                         <div className="carrossel" ref={carrossel}>
                             {data.map((item) => {
-                            const {title, original_title, image, description, director, producer, release_date, running_time, rt_score} = item;
+                            const {title, original_title, image} = item;
                             return(
                                 <Card 
                                     image={image}
                                     title={title}
                                     titleJapanese={original_title}
-                                    year={release_date}
-                                    time={running_time}
-                                    score={ rt_score}
-                                    sinopse={description}
-                                    diretor={director}
-                                    produtor={producer}
-                                    
+            
                                 />
                             )
                             })}
@@ -63,8 +57,11 @@ const Home = () =>{
                         </div>
                     </div>
                     <div className="containerButtons">
+                        <button id="leave-button" onClick={() => { navigate('/movies') }}>
+                            More Informations about Movies
+                        </button>
                         <button id="leave-button" onClick={() => { navigate('/about') }}>
-                            About the Studio Ghibli Inc.
+                            About Studio Ghibli
                         </button>
                     </div>
                 </div>

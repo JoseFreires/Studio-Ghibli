@@ -1,5 +1,5 @@
 .containerHome{
-    
+    background-color: #2B83D3;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -84,22 +84,24 @@
 }
 
 
-@media screen and (max-width: 1200px) {
+/* @media screen and (max-width: 1700px) {
+    .containerHome{
+        width: 100vh;
+    }
     .carrossel{
-        width: 170vh;
+        width: 100vh;
     }
     .containerCarrossel{
-        width: 150vh;
+        width: 100vh;
     }
-    .containerButtons{
-        flex-direction: column;
-        height: 75px;
+    #leave-button{
+        font-size: 14px
     }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1200px) {
     .carrossel{
-        width: 120vh;
+        width: 100vh;
     }
     .containerCarrossel{
         width: 100vh;
@@ -110,19 +112,14 @@
     }
 }
 
-@media screen and (max-width: 570px) {
+@media screen and (max-width: 1065px) {
     .containerHome{
-        width: 100%;
-        height: 100%;
+        width: 200vh;
     }
     .carrossel{
-        width: 38vh;
+        width: 80vh;
     }
     .containerCarrossel{
-        width: 60vh;
+        width: 80vh;
     }
-    .containerButtons{
-        flex-direction: column;
-        height: 75px;
-    }
-}
+} */
