@@ -26,19 +26,20 @@ A aparência foi baseado nas cores presentes do estúdio de animação.
 
 # Imagens do Projeto:
 ## Home
-<img src="https://user-images.githubusercontent.com/88195769/185004788-081dc463-fdb9-4bf1-a699-f5f223fe2c5d.jpeg" />
+<img src="https://user-images.githubusercontent.com/88195769/199580814-74ca8ee4-022f-4a6e-82eb-e160d1b5fbb8.png" />
 
-## Movies
-<img src="https://user-images.githubusercontent.com/88195769/185004904-cd3c89b1-8d37-4f35-8c44-139d2570d395.png" />
+## Modal de Informações dos filmes
+
+<img src="https://user-images.githubusercontent.com/88195769/199580631-5236aa6f-88f2-4c64-9df5-57a08bc10044.png" />
 
 ## About
-<img src="https://user-images.githubusercontent.com/88195769/185004939-8576ce91-0cb8-4b25-ad83-63c0cead690e.png" />
+<img src="https://user-images.githubusercontent.com/88195769/199580947-4fe8905a-1694-4465-bd37-ad0756e7eb12.png" />
 
 # Features
 
 - [x] Aparência
 - [x] Consumir a API
-- [ ] Responsividade(Em progresso)
+- [x] Responsividade
 
 ### Pré-requisitos
 
@@ -57,6 +58,7 @@ $ cd *pasta onde você clonou
 
 # Instale as dependências
 $ npm install react-dom-router@6
+$ npm install react-icons --save
 
 # Execute a aplicação em modo de desenvolvimento
 $ npm start
@@ -76,6 +78,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 As seguintes libraries foram usadas na construção do projeto:
 
 - [react-dom-router@6](https://reactrouter.com/docs/en/v6/getting-started/overview)
+- [react-icons](https://react-icons.github.io/react-icons)
 
 ### API
 
@@ -95,7 +98,7 @@ Feito por José Freires 🦊🦊
 
 Minhas redes sociais:
 
-<a href="www.linkedin.com/in/josé-guilherme-silva-freires-27b778227" type="blank">
+<a href="www.linkedin.com/in/josefreires" type="/blank">
 	<img style="width: 20px;
-	cursor: pointer;" src="https://cdn-icons.flaticon.com/png/512/3536/premium/3536505.png?token=exp=1658073236~hmac=f40313435491c07d739bb205950cf6d4" />
+	cursor: pointer;" src="https://user-images.githubusercontent.com/88195769/199581576-ed1a2c13-a180-4d85-a87e-8b4035fe874b.png" />
 </a>
