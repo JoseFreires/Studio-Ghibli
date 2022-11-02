@@ -19,8 +19,12 @@
     margin-left: 50px
 }
 
-#logo-github{
+#logo-github-header{
     width: 25px;
+}
+#logo-github-header :hover{
+    width: 35px;
+    cursor: pointer;
 }
 
 #buttonLink{
@@ -28,7 +32,7 @@
     border: none;
 }
 #buttonLink :hover{
-    width: 35px;
+    width: 32px;
     cursor: pointer;
 }
 
