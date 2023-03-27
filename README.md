@@ -21,7 +21,7 @@ A aparência foi baseado nas cores presentes do estúdio de animação.
 </p>
 
 <h4 align="center"> 
-	🚧  React Project 🚀 Em construção...  🚧
+	🚧  React Project 🚀 API fora do ar  🚧
 </h4>
 
 # Imagens do Projeto:
