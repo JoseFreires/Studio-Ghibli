@@ -13,7 +13,7 @@ const Home = () =>{
     let navigate = useNavigate();
 
     useEffect(() =>{
-        fetch('https://ghibliapi.herokuapp.com/films/').then((response) => response.json()).then(setData)
+        fetch('https://ghibliapi.vercel.app/films/').then((response) => response.json()).then(setData)
     }, [])
 
     if(!data || !data.length) return null
