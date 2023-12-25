@@ -3,7 +3,7 @@
 <p align="justify">
 Esse projeto foi criado com o objetivo de exercitar o consumo de uma API. Pela primeira vez peguei imagens de uma API
 e coloquei na aplicação, além de vários outras informações que a API oferece. A API foi de uma empresa de animação conhecida como 
-Studio Ghibli.Inc, ela é de origem japonesa e foi fundada em 1985, já recebeu vários prêmios de cimena e animação.
+Studio Ghibli.Inc, ela é de origem japonesa e foi fundada em 1985, já recebeu vários prêmios de cinema e animação.
 A aparência foi baseado nas cores presentes do estúdio de animação.
 </p>
 
